@@ -1,0 +1,71 @@
+# TRANSACTION CONTROL LANGUAGE
+
+CREATE DATABASE tcl;
+USE tcl;
+CREATE TABLE tt
+(ID VARCHAR(10));
+
+INSERT INTO tt VALUES ('a');
+INSERT INTO tt VALUES ('b');
+
+START TRANSACTION;
+
+INSERT INTO tt VALUES ('c');
+INSERT INTO tt VALUES ('d');
+
+SELECT * FROM tt;
+
+ROLLBACK;
+
+COMMIT;
+
+
+
+CREATE TABLE std (Name VARCHAR(20));
+
+START TRANSACTION;
+
+INSERT INTO std VALUES ('David');
+INSERT INTO std VALUES ('Tom');
+SAVEPOINT s1;
+
+INSERT INTO std VALUES ('Pepper');
+INSERT INTO std VALUES ('Lara');
+SAVEPOINT s2;
+
+INSERT INTO std VALUES ('Robert');
+INSERT INTO std VALUES ('Steve');
+
+SELECT * FROM std;
+
+ROLLBACK TO s2;
+
+COMMIT;
+
+
+
+CREATE TABLE students_tcl(
+Roll_no INT PRIMARY KEY,
+Name VARCHAR (50),
+Age INT
+);
+
+START TRANSACTION;
+
+INSERT INTO students_tcl VALUES
+(1,'Ben',25),
+(2,'Bruce',32),
+(3,'Brian',21);
+SAVEPOINT test_insert;
+
+UPDATE students_tcl SET age=18 WHERE Roll_no=3;
+SAVEPOINT test_update;
+
+DELETE FROM students_tcl WHERE Roll_no = 3;
+SAVEPOINT test_delete;
+
+SELECT * FROM students_tcl;
+
+ROLLBACK TO test_insert;
+
+COMMIT;
