@@ -55,12 +55,23 @@ https://github.com/bhushanpawr/My-SQL/blob/main/04%20-%20TCL%20Commands.sql
 
 ## CONSTRAINTS-
 
-Not Null- not null constraints ensure that column not have any null value
-Check-
-Default
-Create Index
-#Key Constraints-
+**DOMAIN CONSTRAINTS**
 
-Unique key
-Primary Key
-Foreign key
+Not Null- not null constraints ensure that column not have any null value
+
+DEFAULT- set default value for column if nothing is present
+
+CHECK - check constraint ensures that column satisfy given condition
+
+ENUM - Enum allows to limit the value chosen from a list of permitted values in the column specification at the time of table creation.
+
+INDEX- retrive data fastly and easily
+
+
+**KEY CONSTRAINTS**-
+
+Unique key - unique key allowes only unique value in column it could accept null values
+
+Primary Key - primary key doesn't allowes null value and it only accepts unique values
+
+Foreign key - foreign key prevents actions that could distroy link between tables
