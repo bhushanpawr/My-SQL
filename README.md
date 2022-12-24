@@ -55,6 +55,8 @@ https://github.com/bhushanpawr/My-SQL/blob/main/04%20-%20TCL%20Commands.sql
 
 ## CONSTRAINTS-
 
+https://github.com/bhushanpawr/My-SQL/blob/main/06-%20CONSTARTINTS.sql
+
 **DOMAIN CONSTRAINTS**
 
 NOT NULL- not null constraints ensure that column not have any null value
