@@ -57,7 +57,7 @@ https://github.com/bhushanpawr/My-SQL/blob/main/04%20-%20TCL%20Commands.sql
 
 **DOMAIN CONSTRAINTS**
 
-Not Null- not null constraints ensure that column not have any null value
+NOT NULL- not null constraints ensure that column not have any null value
 
 DEFAULT- set default value for column if nothing is present
 
@@ -70,8 +70,8 @@ INDEX- retrive data fastly and easily
 
 **KEY CONSTRAINTS**-
 
-Unique key - unique key allowes only unique value in column it could accept null values
+UNIQUE KEY - unique key allowes only unique value in column it could accept null values
 
-Primary Key - primary key doesn't allowes null value and it only accepts unique values
+PRIMARY KEY - primary key doesn't allowes null value and it only accepts unique values
 
-Foreign key - foreign key prevents actions that could distroy link between tables
+FOREIGN KEY - foreign key prevents actions that could distroy link between tables
