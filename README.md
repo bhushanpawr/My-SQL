@@ -57,7 +57,7 @@ https://github.com/bhushanpawr/My-SQL/blob/main/04%20-%20TCL%20Commands.sql
 
 https://github.com/bhushanpawr/My-SQL/blob/main/06-%20CONSTARTINTS.sql
 
-**DOMAIN CONSTRAINTS**
+***DOMAIN CONSTRAINTS***
 
 NOT NULL- not null constraints ensure that column not have any null value
 
@@ -70,7 +70,7 @@ ENUM - Enum allows to limit the value chosen from a list of permitted values in 
 INDEX- retrive data fastly and easily
 
 
-**KEY CONSTRAINTS**-
+***KEY CONSTRAINTS***
 
 UNIQUE KEY - unique key allowes only unique value in column it could accept null values
 
