@@ -77,3 +77,24 @@ UNIQUE KEY - unique key allowes only unique value in column it could accept null
 PRIMARY KEY - primary key doesn't allowes null value and it only accepts unique values
 
 FOREIGN KEY - foreign key prevents actions that could distroy link between tables
+
+
+
+
+## JOINS
+**INNER JOIN-** Returns records that have matching values in both tables.
+
+
+**LEFT JOIN-** Returns all records from left table, and the matched records from right table.
+
+
+**RIGHT JOIN-** Returns all records from right table, and the matched records from left table.
+
+
+**FULL OUTER JOIN-** Returns all records from left and right table.
+
+
+**SELF JOIN-** Returns records that have matching values in same table with different column.
+
+
+**CROSS JOIN-** Returns all records present in the first table multiplied by all records present in the second table.
