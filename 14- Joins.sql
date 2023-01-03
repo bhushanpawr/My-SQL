@@ -12,7 +12,7 @@ CREATE DATABASE Joins;
 USE Joins;
 
 CREATE TABLE Cricket(
-	cricket_id INT AUTO_INCREMENT PRIMARY KEY,
+	Cricket_id INT AUTO_INCREMENT PRIMARY KEY,
 	P_Name VARCHAR(30),
     Reporting_Person_ID INT
     );
@@ -24,15 +24,15 @@ INSERT INTO cricket (P_Name,Reporting_Person_ID) VALUES
 ('Kuldeep',4);
 
 CREATE TABLE Football(
-	football_id INT AUTO_INCREMENT PRIMARY KEY,
+	Football_id INT,
 	P_Name VARCHAR(30)
     );
-INSERT INTO football (P_Name) VALUES 
-('Mahendrasingh'),
-('Virat'),
-('Hardik'),
-('Kuldeep'),
-('Deepak');
+INSERT INTO football VALUES 
+(6,'Mahendrasingh'),
+(7,'Virat'),
+(8,'Hardik'),
+(9,'Kuldeep'),
+(10,'Deepak');
 
 SELECT * FROM cricket;
 SELECT * FROM football;
