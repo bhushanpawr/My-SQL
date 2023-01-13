@@ -2,9 +2,7 @@
 
 ## SQL CORE COMMANDS
 
-**DDL - Data Definition Langauge**
-
-https://github.com/bhushanpawr/My-SQL/blob/main/01-%20DDL%20%20Commands.sql
+**DDL -** [Data Definition Langauge](https://github.com/bhushanpawr/My-SQL/blob/main/01-%20DDL%20%20Commands.sql)
 
 (CREATE , ALTER , Rename ,Drop,TRUNCATE)
 
@@ -19,9 +17,7 @@ Drop - Drop command is used for drop table or database
 Truncate - truncate command deletes the data inside table ,but not the table itself.
 
 
-**DML - Data Manipulation Language**
-
-https://github.com/bhushanpawr/My-SQL/blob/main/02-%20DML%20Commands.sql
+**DML -** [Data Manipulation Language](https://github.com/bhushanpawr/My-SQL/blob/main/02-%20DML%20Commands.sql)
 
 (INSERT, UPDATE, DELETE)
 
@@ -31,9 +27,7 @@ Update- update command is used for updating table records
 
 Delete - delete command is used for deleting records from table
 
-**DQL - Data Query Language**
-
-https://github.com/bhushanpawr/My-SQL/blob/main/03-%20DQL%20Commands.sql
+**DQL -** [Data Query Language](https://github.com/bhushanpawr/My-SQL/blob/main/03-%20DQL%20Commands.sql)
 
 (SELECT)
 
@@ -43,9 +37,7 @@ Select- select command is used for selection of records from the table
 
 (GRANT, REVOKE)
 
-**TCL - Transaction Control Language**
-
-https://github.com/bhushanpawr/My-SQL/blob/main/04%20-%20TCL%20Commands.sql
+**TCL -** [Transaction Control Language](https://github.com/bhushanpawr/My-SQL/blob/main/04%20-%20TCL%20Commands.sql)
 
 (COMMIT, ROLLBACK)
 
@@ -53,9 +45,7 @@ https://github.com/bhushanpawr/My-SQL/blob/main/04%20-%20TCL%20Commands.sql
 
 
 
-## CONSTRAINTS-
-
-https://github.com/bhushanpawr/My-SQL/blob/main/06-%20CONSTARTINTS.sql
+## [CONSTRAINTS-](https://github.com/bhushanpawr/My-SQL/blob/main/06-%20CONSTARTINTS.sql)
 
 ***DOMAIN CONSTRAINTS***
 
@@ -81,7 +71,7 @@ FOREIGN KEY - foreign key prevents actions that could distroy link between table
 
 
 
-## JOINS
+## [JOINS](https://github.com/bhushanpawr/My-SQL/blob/main/14-%20Joins.sql)
 
 [Everything About SQL JOINS🔀🔩 - Medium.com](https://medium.com/@bhushanpawar1806/everything-about-sql-joins-ff80f4613b6f)
 
