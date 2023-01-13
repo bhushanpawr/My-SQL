@@ -82,6 +82,9 @@ FOREIGN KEY - foreign key prevents actions that could distroy link between table
 
 
 ## JOINS
+
+[**Read it on Medium**] (https://medium.com/@bhushanpawar1806/everything-about-sql-joins-ff80f4613b6f)
+
 **INNER JOIN-** Returns records that have matching values in both tables.
 
 
