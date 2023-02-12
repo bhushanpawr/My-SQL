@@ -2,19 +2,19 @@
 
 ## SQL CORE COMMANDS
 
-**DDL -** [Data Definition Langauge](https://github.com/bhushanpawr/My-SQL/blob/main/01-%20DDL%20%20Commands.sql)
+**DDL -** [Data Definition Langauge] (https://github.com/bhushanpawr/My-SQL/blob/main/01-%20DDL%20%20Commands.sql)
 
-(CREATE , ALTER , Rename ,Drop,TRUNCATE)
+(CREATE , ALTER , RENAME ,DROP, TRUNCATE)
 
 Create - Create command is used for create a table
 
 Alter - Alter command is used for add column,modify and delete column.
 
-Rename - Rename command is used for Rename table
+RENAME - Rename command is used for Rename table
 
-Drop - Drop command is used for drop table or database
+DROP - Drop command is used for drop table or database
 
-Truncate - truncate command deletes the data inside table ,but not the table itself.
+TRUNCATE - truncate command deletes the data inside table ,but not the table itself.
 
 
 **DML -** [Data Manipulation Language](https://github.com/bhushanpawr/My-SQL/blob/main/02-%20DML%20Commands.sql)
