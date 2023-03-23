@@ -2,7 +2,7 @@
 
 ## SQL CORE COMMANDS
 
-**DDL -** [Data Definition Langauge] (https://github.com/bhushanpawr/My-SQL/blob/main/01-%20DDL%20%20Commands.sql)
+**DDL -** [Data Definition Langauge](https://github.com/bhushanpawr/My-SQL/blob/main/01-%20DDL%20%20Commands.sql)
 
 (CREATE , ALTER , RENAME ,DROP, TRUNCATE)
 
