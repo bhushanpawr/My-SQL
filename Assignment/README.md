@@ -7,11 +7,11 @@ name, population, capital
 
 (choose appropriate datatypes for the columns)
 
-#### a) Insert the following data into the table
+#### a) Insert the following data into the table.
 
 ![image](https://user-images.githubusercontent.com/113659167/229334407-d4964d5e-ab38-477f-8d88-be8c16b66ca2.png)
 
-#### b) Add a couple of countries of your choice
+#### b) Add a couple of countries of your choice.
 
 #### c) Change ‘Delhi' to ‘New Delhi'
 
